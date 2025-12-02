@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+
+class Hud extends StatelessWidget {
+  final Widget child;
+  Hud({required this.child});
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.black54,
+      padding: EdgeInsets.all(8),
+      child: child,
+    );
+  }
+}
