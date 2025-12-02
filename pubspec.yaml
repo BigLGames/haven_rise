@@ -1,0 +1,21 @@
+name: haven_rise
+description: Anime-High-Fantasy City-Builder + Battles (MVP)
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.0.15
+  # Optional: include flame later if you want more game features
+  # flame: ^1.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tiles/
+    - assets/buildings/
+    - assets/ui/
